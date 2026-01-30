@@ -11,7 +11,7 @@ to a lot of googling where some websites mentioned something like changing the v
 ## Requirements
 <ol>
   <li>Shell access to the router on ZTE f609 this is present login details are root:Zte521</li>
-  <li>brctl, ip and ifconfig binaries in the router</ol>
+  <li>brctl, ip and ifconfig binaries in the router</li>
   <li>Source of internet for this I used my laptop running pop os</li>
   <li>Coffee</li>
 </ol>
