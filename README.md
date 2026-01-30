@@ -9,12 +9,12 @@ which is the average price of a new router....yeah it won't make sense in me buy
 to a lot of googling where some websites mentioned something like changing the vlan of a LAN port to 0 which my router i couldn't seem to find these settings.
 
 ## Requirements
-<li>
-  <ol>Shell access to the router on ZTE f609 this is present login details are root:Zte521</ol>
-  <ol>brctl, ip and ifconfig binaries in the router</ol>
-  <ol>Source of internet for this I used my laptop running pop os</ol>
-  <ol>Coffee</ol>
-</li>
+<ol>
+  <li>Shell access to the router on ZTE f609 this is present login details are root:Zte521</li>
+  <li>brctl, ip and ifconfig binaries in the router</ol>
+  <li>Source of internet for this I used my laptop running pop os</li>
+  <li>Coffee</li>
+</ol>
 
 ## <b>NOTE<n> 
 This code was written specifically for ZTE f609 it may require you to tweak it a little bit and also if the router reboots changes are lost.
@@ -30,11 +30,11 @@ chmod +x routerConfig.sh
 ./routerConfig.sh
 ```
 upon running the script
-<li>
-  <ol>Make sure you modify the GATEWAY in the script.</ol>
-  <ol>type the LAN port you want to configure to WAN e.g eth0, eth1, or ethX</ol>
-  <ol>Type an IP to be assigned to the router</ol>
-</li>
+<ol>
+  <li>Make sure you modify the GATEWAY in the script.</li>
+  <li>type the LAN port you want to configure to WAN e.g eth0, eth1, or ethX</li>
+  <li>Type an IP to be assigned to the router</li>
+</ol>
 On your linux laptop set the etherent connection to be shared to other computers and plug the cable to the lan port which you modified with script.
 
 ## Contributions
